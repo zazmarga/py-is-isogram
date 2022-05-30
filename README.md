@@ -4,7 +4,7 @@
 
 An isogram is a word that has no repeating letters, consecutive or non-consecutive.
 
-Write tests for a function `is_isogram` that takes a string word, that contains only letters, 
+Inside `app/test_main.py`, write tests for a function `is_isogram` that takes a string word, that contains only letters, 
 and checks whether this word is an isogram.
 
 Notes:
@@ -19,3 +19,7 @@ is_isogram('look') == false
 is_isogram('Adam') == false
 is_isogram('') == true
 ```
+
+Run `pytest app/` to check if function pass your tests.
+Run `pytest tests/` to check if your tests cover all boundary conditions
+and pass task tests.
